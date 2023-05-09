@@ -1,0 +1,9 @@
+{
+  "firstName": "John",
+  "age": 26,
+  "address": {
+    "streetAddress": "naist street",
+    "city": "Nara",
+    "postalCode": "630-0192"
+  }
+}
