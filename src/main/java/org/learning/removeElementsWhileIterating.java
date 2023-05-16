@@ -10,6 +10,14 @@ public class removeElementsWhileIterating {
         values.add("b-");
         values.add("c");
         values.add("D-");
+        // ConcurrentModificationException use case
+
+//        for(String value: values) {
+//            if(value.endsWith("-")) {
+//                values.remove(value);
+//            }
+//        }
+
         values.removeIf(value -> value.endsWith("-"));
         System.out.println("Values are: " + values);
 
