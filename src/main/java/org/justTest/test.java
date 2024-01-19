@@ -1,6 +1,8 @@
 package org;
 
 import java.time.YearMonth;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,6 +20,7 @@ public class test {
         List<String> reverseVlues = values.stream().map(String->new StringBuilder(String).reverse().toString()).collect(Collectors.toList());
         System.out.println(reverseVlues);
         System.out.println(values);
+
 
     }
 }
